@@ -1,4 +1,4 @@
-module.exports = function main(a) {
+function main(a) {
     var totalPrice = 6;
     var distance=a.distance;
     var parkTime=a.parkTime;
@@ -15,3 +15,5 @@ module.exports = function main(a) {
 
     return Math.round(totalPrice);
 };
+
+console.log(main({distance:1,parkTime:5}));
